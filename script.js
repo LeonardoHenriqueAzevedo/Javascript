@@ -14,6 +14,8 @@ const fetchPokemon = () => {
             accumulator += `<li>${pokemon.name}</li>`;
             return accumulator;
         }, "")
+
+        console.log(liPokemon)
     });
 };
 
