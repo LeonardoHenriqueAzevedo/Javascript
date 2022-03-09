@@ -33,7 +33,7 @@ h1 {
 }
 
 .card::after {
-	content: "";
+  content: "";
   display: block;
   width: 50%;
   height: 45%;
