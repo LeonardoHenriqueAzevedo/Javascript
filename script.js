@@ -8,10 +8,16 @@ const fetchPokemon = () => {
     }
 
     Promise.all(pokemonPromises).then(pokemons => {
-        // console.log(pokemons);
+        const types = pokemon.types.map(typeInfo => typeInfo.type.name)
 
         const liPokemon = pokemons.reduce((accumulator, pokemon) => {
-            accumulator += `<li>${pokemon.name}</li>`;
+            accumulator += `
+            <li class="card">
+            <img class="card-image" ${types[0]}" alt="${pokemon.name} 
+            src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png"/>
+              <h2 class="card-title">${pokemon.id}. ${pokemon.name}</h2>
+              <p class="card-subtitle">${types.join(" | ")}</p>
+            </li>`;
             return accumulator;
         }, "")
 
