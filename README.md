@@ -3,7 +3,7 @@ A website that contains the Pokédex (The Pokédex is an electronic device creat
 
 ## Interface 
 <h1 align="center">
-    <img alt="Doe_GIF" title="Doe_Interface_GIF" src="github/Doe_Website_GIF.gif">
+    <img alt="pokedex_gif" title="pokedex_GIF" src="github/pokedex.gif">
 </h1>
 
 # 💻 Technologies
