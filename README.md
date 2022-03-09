@@ -15,21 +15,8 @@ A website to find persons to donate blood, register them and after this we can p
 ## Front End
 - **HTML**
 - **CSS**
-- **JS**
 ## Back End
 - **JS**
-- **Node.JS**
-  - With Express, Nodemon and Nunjucks
-- **PostgreSQL**
-
-# 🕹️ How To Use
-```bash
-# Install the dependencies 
-npm install
-
-# Run the app
-npm start
-```
 
 # 📝 License
 This project have the license of the [MIT](./LICENSE).
