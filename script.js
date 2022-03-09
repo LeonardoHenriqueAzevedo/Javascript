@@ -22,12 +22,8 @@ const insertPokemonsIntoPage = pokemons => {
     ul.innerHTML = pokemons;
 }
 
-const fetchPokemon = () => {
-    const pokemonPromises = generatePokemonPromises();
+const pokemonPromises = generatePokemonPromises();
 
-    Promise.all(pokemonPromises)
-        .then(generateHTML)
-        .then(insertPokemonsIntoPage)
-};
-
-fetchPokemon();
+Promise.all(pokemonPromises)
+    .then(generateHTML)
+    .then(insertPokemonsIntoPage)
